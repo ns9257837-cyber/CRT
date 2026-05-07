@@ -15,7 +15,7 @@ class Area {
     void display() {
         cout<<"Length: "<<length<<endl;
         cout<<"Width: "<<width<<endl;
-    }
+    };
     int main() {
         Area a1;
         cout<<"Default constructor is called"<<endl;
@@ -27,4 +27,4 @@ class Area {
     
         return 0;
     }       
-}
+};
