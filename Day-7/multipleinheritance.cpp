@@ -16,7 +16,7 @@ public:
 // Derived Class or Child Class of Player class
 // Parent class or Base class of IndianCricketer class
 
-class Cricketer : public Player
+class Cricketer
 {
 public:
     int runs;
@@ -26,7 +26,7 @@ public:
     }
 };
 
-class IndianCricketer : public Cricketer
+class IndianCricketer : public Cricketer,public Player
 {
 public:
     string state;
